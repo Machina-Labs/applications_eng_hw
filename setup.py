@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="python_template",  # TODO: Change this to the name of your module
+    name="app_eng_hw",  
     version="0.0.1",
-    author="Maximilian Schommer",  # TODO: Change this to your name
-    author_email="max@machinalabs.ai",  # TODO: Change this to your email
-    description="A template for creating python modules.",
+    author="Daniel Lizardo",  
+    author_email="daniel@machinalabs.ai",  
+    description="really just the readme and some assets for this",
     long_description=long_description,
     long_description_content_type="text/markdown",
     # TODO: Change this to your repo URL
