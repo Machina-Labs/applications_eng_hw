@@ -13,9 +13,9 @@ From a modeling perspective, the DSIF robotic forming process is sensitive to wa
 
 Customer parts come in all shapes and sizes and they come from an entirely different workflow so we have provide a hypothetical flange with 3 distinct issues we need you to solve.
 
-	1.	Orientation:	The flange is oriented the way it was in its master assembly. We need to orient for forming so that the wall angles are roughly* minimized.
-	2.	Holes:			This was meant to be bolted onto another part, but we will cut the holes out later. We have to patch the surface in CAD before forming.
-	3.	Thickness:		This part is modeled to be 2mm thick sheet, but to model a forming surface, we need to extract just the interior surface to work with.
+1.	Orientation:	The flange is oriented the way it was in its master assembly. We need to orient for forming so that the wall angles are roughly* minimized.
+2.	Holes:			This was meant to be bolted onto another part, but we will cut the holes out later. We have to patch the surface in CAD before forming.
+3.	Thickness:		This part is modeled to be 2mm thick sheet, but to model a forming surface, we need to extract just the interior surface to work with.
 
 *This probelm does have an optimum solution, but we're not asking for that here. As long as you keep the wall angles low, it'll be great for evaluating formability.
 
@@ -25,17 +25,17 @@ You have a CAD surface model of a geometry (a “part”) that you want to form 
 
 Your tasks are as follows:
 
-	1.	Extract the interior surface of the part
-	2.	Make sure it is continuous (no holes)
-	3.	Evaluate the wall angles
-	4. 	Model a simple skirt
+1.	Extract the interior surface of the part
+2.	Make sure it is continuous (no holes)
+3.	Evaluate the wall angles
+4. 	Model a simple skirt
 	
 The outer perimeter edge of the skirted part should lie entirely in the Z = 0 plane (i.e., the flat sheet from which the part will be formed is located in the Z = 0 plane). The wall angle everywhere on the skirted part should be 60 degrees or less. Wall angle is defined with respect to the flat sheet.
 
 What we want back from you:
 	
-	1. your 'skirted' part file
-	2. a visualization or some sort of report on the wall angles of your part (It can be a screenshot like the one below, or you can tell us the maximum draft angle and we'll verify)
+1. your 'skirted' part file
+2. a visualization or some sort of report on the wall angles of your part (It can be a screenshot like the one below, or you can tell us the maximum draft angle and we'll verify)
 
 ## The Scope
 
@@ -54,7 +54,11 @@ There are lots of tools in the toolbox and you may or may not have needed all of
 
 On evaluating draft or wall angles: most software packages have some sort of draft analysis tool, and they all work a bit differently. Some can show a continuous gradient, others use a threshold value, probably there are other things I'm not even aware of. Just find a way to communicate how you were sure the draft angles were not too high (>65 degrees from horizontal).
 
-For inspiration, here is a very simple answer I quickly came up with to visualize what we're looking for, as well as an example of draft analysis from a different mock part. Don't copy me becasue while it looks like something that meets the requirments it actually doesn't quite (shhhhh).
+For inspiration, here is a very simple answer I quickly came up with to visualize what we're looking for, as well as an example of draft analysis from a different mock part. Don't copy me becasue while it looks like something that meets the requirments it actually doesn't quite (shhhhh). There are a few more visuals in the asset folder as well.
+
+Email me for whatever: daniel@machinalabs.ai
+
+GOOD LUCK!
 
 ![asset/app_eng_hw](asset/app_eng_wireframe.png)
 ![asset/app_eng_hw](asset/app_eng_hw.png)
