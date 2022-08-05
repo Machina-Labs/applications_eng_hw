@@ -9,7 +9,7 @@ Seems like you're taking the time to go through Machina Lab's quick assessment o
 You are given a CAD model of a part that we are tasked with fabricating by double sided incremental forming (DSIF). As an applications engineer, part of your job is assessing the rough feasibility of the customer part, and you'll do so by evaluating the geometry of the part against our constraints as well as modeling a rough version of a forming surface. This part is a swooping flange with some bolt/rivet holes. 
 
 ## The Constraints
-From a modeling perspective, the DSIF robotic forming process is sensitive to wall angle and continuity. A forming surface must be a single continuous surface with no holes or non-manifold edges, and the wall angles must stay under ~65 degrees from horizontal.
+From a modeling perspective, the DSIF robotic forming process is sensitive to wall angle and continuity. A forming surface must be a single continuous surface with no holes or non-manifold edges, and the wall angles must stay under ~65 degrees from horizontal. We want to mock up what that surface will look like so we can estimate things like fabrication time and how easy it will be to form accurately.
 
 Customer parts come in all shapes and sizes and they come from an entirely different workflow so we have provide a hypothetical flange with 3 distinct issues we need you to solve.
 
@@ -28,7 +28,7 @@ Your tasks are as follows:
 1.	Extract the interior surface of the part
 2.	Make sure it is continuous (no holes)
 3.	Evaluate the wall angles
-4. 	Model a simple skirt
+4. 	Model a simple skirt and provide the surface area
 	
 The outer perimeter edge of the skirted part should lie entirely in the Z = 0 plane (i.e., the flat sheet from which the part will be formed is located in the Z = 0 plane). The wall angle everywhere on the skirted part should be 60 degrees or less. Wall angle is defined with respect to the flat sheet.
 
@@ -36,6 +36,7 @@ What we want back from you:
 	
 1. your 'skirted' part file
 2. a visualization or some sort of report on the wall angles of your part (It can be a screenshot like the one below, or you can tell us the maximum draft angle and we'll verify)
+3. a surface area of the part and skirt surfaces (don't count the flat part of the sheet)
 
 ## The Scope
 
