@@ -60,6 +60,7 @@ Email me for whatever: daniel@machinalabs.ai
 
 GOOD LUCK!
 
-![asset/app_eng_hw](asset/app_eng_wireframe.png)
-![asset/app_eng_hw](asset/app_eng_hw.png)
-![asset/app_eng_hw](asset/app_eng_hw_draft.png)
+![wireframe](asset/app_eng_wireframe.png)
+![shaded](asset/app_eng_hw.png)
+![detail](asset/app_eng_hw_detail.png)
+![draft](asset/app_eng_hw_draft.png)
