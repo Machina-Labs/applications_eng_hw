@@ -44,6 +44,7 @@ Feel free to use any CAD software you like. You can pick one you're really comfo
 
 If you don't have access to a software platform at the moment, you can make a free account with OnShape, and if you're a student, there are free educational licences for Autodesk products like Fusion 360.
 	https://www.onshape.com/en/products/free
+	\
 	https://www.autodesk.com/education/edu-software/overview?sorting=featured&filters=individual
 
 
