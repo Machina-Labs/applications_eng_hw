@@ -54,7 +54,7 @@ TIMING: this should take 1, maybe 2 hours to complete, so please don't spend muc
 
 The customer file is given out as a .STP or 'step' which is a standard surface/solid file type for engineering-focused modeling software like Solidworks, Fusion, Catia, Revit, Inventor, etc. There are lots of ways to model though, so if you prefer a different format, talk to me about it! I'm happy to provide something else and discuss why STP is commonly used and why you might to work in an other format.
 
-There are lots of tools in the toolbox and you may or may not have needed all of them before. No worries! The bread and butter of surface modeling is in tools like *patch surfaces*, *loft surfaces*, *network surfaces*, *boundary surfaces*, *sweep surfaces*. If you're more used to extruding solids and boolean operations for example, then maybe look up what these surfaces do and how to use them.
+There are lots of tools in the toolbox and you may or may not have needed all of them before. No worries! The bread and butter of surface modeling is in tools like *patch surfaces*, *loft surfaces*, *network surfaces*, *boundary surfaces*, *sweep surfaces*, or *ruled surfaces*. If you're more used to extruding solids and boolean operations for example, then maybe look up what these surfaces do and how to use them.
 
 On evaluating draft or wall angles: most software packages have some sort of draft analysis tool, and they all work a bit differently. Some can show a continuous gradient, others use a threshold value, probably there are other things I'm not even aware of. Just find a way to communicate how you were sure the draft angles were not too high (>65 degrees from horizontal).
 
