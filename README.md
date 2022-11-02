@@ -17,7 +17,7 @@ Customer parts come in all shapes and sizes and they come from an entirely diffe
 2.	Holes:			This was meant to be bolted onto another part, but we will cut the holes out later. We have to patch the surface in CAD before forming.
 3.	Thickness:		This part is modeled as a solid sheet, but to model a forming surface, we need to extract just the interior surface to work with.
 
-*This probelm does have an optimum solution, but we're not asking for that here. As long as you keep the wall angles low, it'll be great for evaluating formability.
+*This problem does have an optimum solution, but we're not asking for that here. As long as you keep the wall angles low, it'll be great for evaluating formability.
 
 ## The Deliverables
 ![render_hw_comp](asset/render_hw_comp.png)
