@@ -68,6 +68,6 @@ GOOD LUCK!
 
 
 
-![plan](asset\app_eng_hw_plan.jpg)
-![elev](asset\app_eng_hw_elev.jpg)
+![plan](asset/app_eng_hw_plan.jpg)
+![elev](asset/app_eng_hw_elev.jpg)
 ![draft](asset/app_eng_hw_draft.png)
