@@ -20,7 +20,7 @@ Customer parts come in all shapes and sizes and they come from an entirely diffe
 *This problem does have an optimum solution, but we're not asking for that here. As long as you keep the wall angles low, it'll be great for evaluating formability.
 
 ## The Deliverables
-![render_hw_comp](asset/render_hw_comp.png)
+![render_hw_comp](asset/app_eng_hw.jpg)
 You have a CAD model of a geometry (a “part”) that you want to form from a sheet of metal using our robotic incremental forming process. The perimeter of the part does not lie in a plane, yet the part is to be formed from a rectangular sheet that’s initially flat and whose edges are clamped in a frame. Therefore, we want to orient the part and add surface geometry to connect it to a planar surface (this extra geometry is called a “skirt”). After forming, the part will be cut out from the formed sheet.
 
 Your tasks are as follows:
@@ -60,13 +60,14 @@ There are lots of tools in the toolbox and you may or may not have needed all of
 
 On evaluating draft or wall angles: most software packages have some sort of draft analysis tool, and they all work a bit differently. The most important difference is reference frame. Usually "wall angle" is defined as from the horizontal plane and "draft angle" is from the vertical plane/normal vector (wall angle = 90deg - draft angle). Some can show a continuous gradient, others use a threshold value, probably there are other things I'm not even aware of. Just find a way to communicate how you were sure the *wall angles* were not too high (>65 degrees from horizontal).
 
-For inspiration, here is a very simple answer I quickly came up with to visualize what we're looking for, as well as an example of draft analysis from a different mock part. Don't copy me because while it looks like something that meets the requirements, it actually isn't quite good enough (shhhhh). There are a few more visuals in the asset folder as well.
+For inspiration, here is an example I quickly came up with (using a different geometry) to visualize what we're looking for, as well as an example of draft analysis. For the sample part, the color denotes the part (orange) and the skirt (grey). There are a few more visuals in the asset folder as well.
 
 Email me for whatever: daniel@machinalabs.ai
 
 GOOD LUCK!
 
-![wireframe](asset/app_eng_wireframe.png)
-![shaded](asset/app_eng_hw.png)
-![detail](asset/app_eng_hw_detail.png)
+
+
+![plan](asset\app_eng_hw_plan.jpg)
+![elev](asset\app_eng_hw_elev.jpg)
 ![draft](asset/app_eng_hw_draft.png)
